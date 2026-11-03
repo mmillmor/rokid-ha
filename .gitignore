@@ -1,0 +1,18 @@
+# Android / Gradle local & build artifacts
+.gradle/
+.idea/
+.kotlin/
+build/
+app/build/
+app/.idea/
+app/local.properties
+local.properties
+
+# Local Home Assistant credentials (never commit real tokens)
+ha_config.json
+
+# Built APKs & keystores
+*.apk
+*.aab
+*.jks
+*.keystore
